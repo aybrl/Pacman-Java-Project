@@ -17,14 +17,14 @@ pacgommes.
 - Orange 500 points et le pacman devient un superpacman sa couleur est alors orange et les fantômes deviennent alors bleus.
 - Vert 1000 point et on modifie la structure du labyrinthe
 # A cela on rajoute les régles suivantes :
-— Initialement il a trois vies.
-— Si le joueur d´epasse les 5000 points, il obtient une vie supplémentaire.
-— Chaque fantôme se déplace dans une direction jusqu’à ce qu’il atteigne un mur, puis choisit une nouvelle
+- Initialement il a trois vies.
+-Si le joueur d´epasse les 5000 points, il obtient une vie supplémentaire.
+- Chaque fantôme se déplace dans une direction jusqu’à ce qu’il atteigne un mur, puis choisit une nouvelle
 direction aléatoirement.
-— Quand le pacman est invisible et le pacman pourra traverser les fantômes sans perdre de vie.
-— Quand le pacman est un superpacman, les fantˆomes deviennent vuln´erables. Dans ce cas, ils se d´eplacent
+- Quand le pacman est invisible et le pacman pourra traverser les fantômes sans perdre de vie.
+- Quand le pacman est un superpacman, les fantˆomes deviennent vuln´erables. Dans ce cas, ils se d´eplacent
 deux fois plus lentement et ils reviennent au centre du labyrinthe si ils sont touch´es par le pacman.
-— Le jeu se termine quand il n’y a plus de pacgommes et la partie est gagn´ee ou quand le pacman a perdu
+- Le jeu se termine quand il n’y a plus de pacgommes et la partie est gagn´ee ou quand le pacman a perdu
 toutes ses vies et la partie est perdue
 # Liste des design patterns utilisés : 
 - Observer (Notifier les personnages à chaque changement des états et d'emplacement)
