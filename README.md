@@ -28,7 +28,7 @@ deux fois plus lentement et ils reviennent au centre du labyrinthe si ils sont t
 toutes ses vies et la partie est perdue
 # Liste des design patterns utilisés : 
 - Observer (Notifier les personnages à chaque changement des états et d'emplacement)
-- State (Gestion des différents états des personnage durant le jeu)
+- State (Gestion des différents états des personnages durant le jeu)
 - Factory (Pour créer les différentes composantes du jeu plus précisement la partie des pacgommes)
 # Screen du jeu 
 
