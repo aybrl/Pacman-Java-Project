@@ -108,7 +108,7 @@ public class Pacman extends MazeObject implements Personnage {
 
     @Override
     public String Collision() {
-        return "PacmanGame/Pacman";
+        return "Pacman";
     }
 
     // Methods Observer

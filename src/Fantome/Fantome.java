@@ -109,7 +109,7 @@ public class Fantome extends MazeObject implements Personnage, PacmanObserver {
         }
     }
 
-    // Observing PacmanGame.Pacman
+    // Observing Pacman
     @Override
     public void notifyPacman(PacmanEvent event) {
     	if(event.getState() == PacmanStates.Superpacman) {
